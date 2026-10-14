@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "id": "preset-defaut",
+  "name": "Ingénieure logiciel DM (tout coché)",
+  "isDefault": true,
+  "lang": "fr",
+  "enVariant": "en-GB",
+  "template": {
+    "layout": "ats-classique",
+    "theme": {
+      "font": "carlito",
+      "accent": "#1F4E79",
+      "density": "normale"
+    }
+  },
+  "selection": {
+    "titleId": "ttl-logiciel-dm",
+    "summaryId": "sum-dm",
+    "sections": [
+      {
+        "key": "summary",
+        "enabled": true
+      },
+      {
+        "key": "experience",
+        "enabled": true
+      },
+      {
+        "key": "skills",
+        "enabled": true
+      },
+      {
+        "key": "regulatory",
+        "enabled": true
+      },
+      {
+        "key": "education",
+        "enabled": true
+      },
+      {
+        "key": "projects",
+        "enabled": true
+      },
+      {
+        "key": "certifications",
+        "enabled": true
+      },
+      {
+        "key": "languages",
+        "enabled": true
+      },
+      {
+        "key": "interests",
+        "enabled": true
+      }
+    ],
+    "include": [
+      "exp-medtech-2023",
+      "b-medtech-62304",
+      "b-medtech-cicd",
+      "b-medtech-risques",
+      "exp-santenum-2019",
+      "b-santenum-api",
+      "b-santenum-tests",
+      "exp-labo-2019",
+      "b-labo-ecg",
+      "edu-ingenieur-2019",
+      "sk-c",
+      "sk-cpp",
+      "sk-python",
+      "sk-git",
+      "sk-gitlab-ci",
+      "sk-cicd",
+      "sk-tdd",
+      "std-iec62304",
+      "std-iso14971",
+      "std-iso13485",
+      "lang-fr",
+      "lang-en",
+      "int-course",
+      "int-photo",
+      "int-soutien",
+      "b-medtech-revue",
+      "b-medtech-capa",
+      "b-medtech-mentor",
+      "b-medtech-cyber",
+      "b-medtech-audit",
+      "b-santenum-rgpd",
+      "b-santenum-perf",
+      "b-santenum-astreinte",
+      "b-santenum-interop",
+      "b-labo-banc",
+      "exp-hopital-2017",
+      "b-hopital-maintenance",
+      "b-hopital-materiovigilance",
+      "b-hopital-formation",
+      "exp-institut-2015",
+      "b-institut-donnees",
+      "b-institut-publication",
+      "b-institut-outils",
+      "prj-tracabilite",
+      "b-tracabilite-export",
+      "prj-capteur",
+      "b-capteur-firmware",
+      "b-capteur-app",
+      "cert-auditeur-13485",
+      "cert-scrum",
+      "edu-licence-2016",
+      "lang-de"
+    ],
+    "order": {},
+    "variantChoice": {},
+    "overrides": {}
+  },
+  "options": {
+    "photo": false,
+    "drivingLicense": true,
+    "workAuthorization": false,
+    "links": [
+      "lk-linkedin",
+      "lk-github"
+    ],
+    "dateStyle": "numerique",
+    "regulatoryPlacement": "skills-subgroup",
+    "referencesNote": true
+  },
+  "fileLabel": "Ingenieure-logiciel-DM"
+}

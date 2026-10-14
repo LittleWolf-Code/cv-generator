@@ -1,0 +1,12 @@
+node_modules/
+**/dist/
+out/
+data/
+import/
+package-lock.json
+CAHIER_DES_CHARGES.md
+docs/recherche/
+fixtures/
+**/.spike/
+*.typ
+packages/render/fonts/

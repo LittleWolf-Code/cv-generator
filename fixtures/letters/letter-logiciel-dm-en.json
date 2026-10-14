@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "version": 1,
+  "origin": "claude",
+  "basedOn": null,
+  "status": "brouillon",
+  "createdAt": "2026-10-06T09:00:00+02:00",
+  "recipient": {
+    "civility": "madame",
+    "name": "Durand",
+    "function": "Head of Software",
+    "company": "ACME Medical",
+    "city": "Grenoble"
+  },
+  "paragraphs": [
+    {
+      "role": "opening",
+      "text": "With three years of IEC 62304 software development for medical devices, I am applying for your software engineer position."
+    },
+    {
+      "role": "evidence",
+      "text": "At MedTech Exemple SAS, I brought infusion-pump software into IEC 62304 (Class B) compliance: development plan, requirements-to-test traceability and 240 automated unit tests. I also led the software risk analysis per ISO 14971 with the quality team, with 35 risk controls traced."
+    },
+    {
+      "role": "motivation",
+      "text": "ACME Medical designs infusion pumps and Class IIb monitors, and your focus on continuous integration matches what I set up on GitLab CI, where release validation went from 3 days to 4 hours."
+    },
+    {
+      "role": "close",
+      "text": "I would welcome the opportunity to discuss in an interview how I could contribute to your software teams."
+    }
+  ],
+  "sourceIds": [
+    "exp-medtech-2023",
+    "b-medtech-62304",
+    "b-medtech-risques",
+    "b-medtech-cicd"
+  ]
+}

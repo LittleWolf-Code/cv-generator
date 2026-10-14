@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "ids": {
+    "ttl-logiciel-dm": {
+      "kind": "title",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "sum-dm": {
+      "kind": "summary",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "exp-medtech-2023": {
+      "kind": "experience",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "b-medtech-62304": {
+      "kind": "bullet",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "b-medtech-cicd": {
+      "kind": "bullet",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "b-medtech-risques": {
+      "kind": "bullet",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "exp-santenum-2019": {
+      "kind": "experience",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "b-santenum-api": {
+      "kind": "bullet",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "b-santenum-tests": {
+      "kind": "bullet",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "exp-labo-2019": {
+      "kind": "experience",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "b-labo-ecg": {
+      "kind": "bullet",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "edu-ingenieur-2019": {
+      "kind": "education",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "prj-tracabilite": {
+      "kind": "project",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "b-tracabilite-export": {
+      "kind": "bullet",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "sk-c": {
+      "kind": "skill",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "sk-cpp": {
+      "kind": "skill",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "sk-python": {
+      "kind": "skill",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "sk-git": {
+      "kind": "skill",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "sk-gitlab-ci": {
+      "kind": "skill",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "sk-cicd": {
+      "kind": "skill",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "sk-tdd": {
+      "kind": "skill",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "std-iec62304": {
+      "kind": "skill",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "std-iso14971": {
+      "kind": "skill",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "std-iso13485": {
+      "kind": "skill",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "cert-auditeur-13485": {
+      "kind": "certification",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "lang-fr": {
+      "kind": "language",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "lang-en": {
+      "kind": "language",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "int-course": {
+      "kind": "interest",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "int-photo": {
+      "kind": "interest",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "int-soutien": {
+      "kind": "interest",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "langages": {
+      "kind": "category",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "outils": {
+      "kind": "category",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "methodes": {
+      "kind": "category",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "reglementaire": {
+      "kind": "category",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "preset-defaut": {
+      "kind": "preset",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "lk-linkedin": {
+      "kind": "link",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "lk-github": {
+      "kind": "link",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "items": [
+    {
+      "id": "edu-ingenieur-pieges",
+      "degree": {
+        "fr": "Diplôme d'ingénieur",
+        "en": "Diplôme d'Ingénieur"
+      },
+      "field": {
+        "fr": "informatique et santé",
+        "en": "Computer Science and Health"
+      },
+      "institution": "École Fictive d'Ingénieurs de Lyon",
+      "location": {
+        "city": "Lyon",
+        "country": {
+          "fr": "France",
+          "en": "France"
+        }
+      },
+      "start": "2016-09",
+      "end": "2019-09",
+      "honors": null,
+      "levelEquivalent": {
+        "fr": "Bac+5, grade de master",
+        "en": "Master's degree in Engineering, EQF level 7"
+      },
+      "tags": [],
+      "skills": [],
+      "bullets": []
+    }
+  ]
+}

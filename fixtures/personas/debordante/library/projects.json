@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "items": [
+    {
+      "id": "prj-tracabilite",
+      "name": {
+        "fr": "Outil de traçabilité exigences-tests",
+        "en": "Requirements-to-test traceability tool"
+      },
+      "role": {
+        "fr": "projet personnel",
+        "en": "personal project"
+      },
+      "url": {
+        "url": "https://github.com/camille-martin-fictif/tracabilite",
+        "display": "github.com/camille-martin-fictif/tracabilite"
+      },
+      "start": "2024-03",
+      "end": null,
+      "tags": [
+        "dm",
+        "outillage"
+      ],
+      "skills": [
+        "sk-python"
+      ],
+      "bullets": [
+        {
+          "id": "b-tracabilite-export",
+          "tags": [],
+          "skills": [
+            "sk-python"
+          ],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Génération automatique de la matrice de traçabilité à partir des tickets et des résultats de tests",
+                "en": "Automatic generation of the traceability matrix from tickets and test results"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prj-capteur",
+      "name": {
+        "fr": "Capteur connecté de fréquence respiratoire",
+        "en": "Connected respiratory rate sensor"
+      },
+      "role": {
+        "fr": "projet de fin d'études",
+        "en": "final-year project"
+      },
+      "organization": "École Fictive d'Ingénieurs de Lyon",
+      "url": null,
+      "start": "2018-09",
+      "end": "2019-01",
+      "tags": [
+        "embarque"
+      ],
+      "skills": [
+        "sk-c"
+      ],
+      "bullets": [
+        {
+          "id": "b-capteur-firmware",
+          "tags": [],
+          "skills": [
+            "sk-c"
+          ],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Micrologiciel en C basse consommation : 9 jours d'autonomie sur pile bouton",
+                "en": "Low-power C firmware: 9 days of battery life on a coin cell"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b-capteur-app",
+          "tags": [],
+          "skills": [
+            "sk-python"
+          ],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Application de visualisation des mesures en Python et rapport d'évaluation clinique préliminaire",
+                "en": "Python visualization app and preliminary clinical evaluation report"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

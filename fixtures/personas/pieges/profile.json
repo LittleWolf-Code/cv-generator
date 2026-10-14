@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "identity": {
+    "firstName": "Camille",
+    "lastName": "Martin",
+    "email": "camille.martin@example.com",
+    "phone": "+33 6 39 98 12 34",
+    "location": {
+      "city": "Lyon",
+      "country": {
+        "fr": "France",
+        "en": "France"
+      }
+    },
+    "links": [
+      {
+        "id": "lk-github",
+        "kind": "github",
+        "url": "https://github.com/camille-martin-fictif",
+        "display": "github.com/camille-martin-fictif",
+        "style": "name"
+      }
+    ],
+    "photo": null,
+    "drivingLicense": null,
+    "workAuthorization": null
+  }
+}

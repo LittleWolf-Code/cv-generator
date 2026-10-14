@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "items": [
+    {
+      "id": "int-course",
+      "text": { "fr": "Course à pied", "en": "Running" },
+      "detail": { "fr": "semi-marathon", "en": "half marathon" }
+    },
+    { "id": "int-photo", "text": { "fr": "Photographie argentique", "en": "Film photography" } },
+    {
+      "id": "int-soutien",
+      "text": { "fr": "Soutien scolaire bénévole", "en": "Volunteer tutoring" }
+    }
+  ]
+}

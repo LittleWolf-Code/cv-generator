@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "identity": {
+    "firstName": "Camille",
+    "lastName": "Martin",
+    "email": "camille.martin@example.com",
+    "phone": "06 39 98 12 34",
+    "location": { "city": "Lyon", "country": { "fr": "France", "en": "France" } },
+    "links": [
+      {
+        "id": "lk-linkedin",
+        "kind": "linkedin",
+        "url": "https://www.linkedin.com/in/camille-martin-fictif",
+        "display": "linkedin.com/in/camille-martin-fictif"
+      },
+      {
+        "id": "lk-github",
+        "kind": "github",
+        "url": "https://github.com/camille-martin-fictif",
+        "display": "github.com/camille-martin-fictif"
+      }
+    ],
+    "photo": null,
+    "drivingLicense": { "fr": "Permis B", "en": "Full driving licence (category B)" },
+    "workAuthorization": null
+  }
+}

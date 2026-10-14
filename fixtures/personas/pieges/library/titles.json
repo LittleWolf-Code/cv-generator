@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "items": [
+    {
+      "id": "ttl-cyber-dm",
+      "tags": [],
+      "variants": [
+        {
+          "id": "principale",
+          "text": {
+            "fr": "Ingénieur·e logiciel et cybersécurité des dispositifs médicaux",
+            "en": "Medical Device Software and Cybersecurity Engineer"
+          }
+        }
+      ]
+    }
+  ]
+}

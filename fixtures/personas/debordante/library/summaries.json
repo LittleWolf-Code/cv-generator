@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "items": [
+    {
+      "id": "sum-dm",
+      "tags": ["dm"],
+      "variants": [
+        {
+          "id": "principale",
+          "text": {
+            "fr": "Ingénieure logiciel avec 6 ans d'expérience sur des dispositifs médicaux de classe IIa : développement embarqué en C et C++, conformité IEC 62304 et automatisation des tests.",
+            "en": "Software engineer with 6 years of experience on Class IIa medical devices: embedded C and C++ development, IEC 62304 compliance and test automation."
+          }
+        }
+      ]
+    }
+  ]
+}

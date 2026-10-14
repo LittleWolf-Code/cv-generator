@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "id": "01JC0FX0000000000000EDT001",
+  "type": "edit",
+  "status": "pending",
+  "origin": "claude",
+  "source": "import-cv",
+  "createdAt": "2026-10-05T10:08:00",
+  "sourceFile": "CV actuel.pdf",
+  "target": {
+    "collection": "experiences",
+    "itemId": "exp-santenum-2019",
+    "bulletId": null,
+    "variantId": null,
+    "field": "organization"
+  },
+  "base": {
+    "file": "library/experiences.json",
+    "revision": 1,
+    "hash": "sha256:be519ffdc6fd6706f497614cb282586b31667956de7a60eb4c2bebcb2150caa2",
+    "snapshot": {
+      "id": "exp-santenum-2019",
+      "tags": [
+        "sante",
+        "backend"
+      ],
+      "locked": false,
+      "archived": false,
+      "position": {
+        "fr": "Développeuse logiciel",
+        "en": "Software Developer"
+      },
+      "organization": "Santé Numérique Fictive",
+      "location": {
+        "city": "Lyon",
+        "country": {
+          "fr": "France",
+          "en": "France"
+        }
+      },
+      "contract": "cdi",
+      "start": "2019-09",
+      "end": "2023-01",
+      "skills": [
+        "sk-python"
+      ],
+      "bullets": [
+        {
+          "id": "b-santenum-api",
+          "tags": [
+            "backend"
+          ],
+          "skills": [
+            "sk-python"
+          ],
+          "variants": [
+            {
+              "id": "principale",
+              "label": null,
+              "text": {
+                "fr": "Développement en Python d'une API de télésuivi de patients utilisée par 12 établissements de santé",
+                "en": "Developed a Python remote patient monitoring API used by 12 healthcare facilities"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b-santenum-tests",
+          "tags": [
+            "tests"
+          ],
+          "skills": [
+            "sk-tdd"
+          ],
+          "variants": [
+            {
+              "id": "principale",
+              "label": null,
+              "text": {
+                "fr": "Couverture de tests portée de 45 % à 85 % et revue de code systématique",
+                "en": "Raised test coverage from 45% to 85% and introduced systematic code review"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "payload": {
+    "field": "organization",
+    "oldValue": "Santé Numérique Fictive",
+    "newValue": "Santé Numérique Fictive SAS",
+    "sensitive": true
+  },
+  "rationale": "Le CV importé donne la raison sociale complète de l'employeur (ATS-22 : nom complet de l'organisation).",
+  "checks": [
+    {
+      "rule": "no-foreign-content",
+      "ok": true
+    }
+  ],
+  "dependsOn": [],
+  "supersedes": null,
+  "resolution": null
+}

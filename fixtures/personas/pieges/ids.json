@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "ids": {
+    "ttl-cyber-dm": {
+      "kind": "title",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "sum-cyber": {
+      "kind": "summary",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "exp-cyber-2021": {
+      "kind": "experience",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "b-pieges-cem": {
+      "kind": "bullet",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "b-pieges-qms": {
+      "kind": "bullet",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "b-pieges-trace": {
+      "kind": "bullet",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "b-pieges-liens": {
+      "kind": "bullet",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "b-pieges-recherche": {
+      "kind": "bullet",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "b-pieges-oeuvre": {
+      "kind": "bullet",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "b-pieges-ateliers": {
+      "kind": "bullet",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "exp-dev-2019": {
+      "kind": "experience",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "b-pieges-firmware": {
+      "kind": "bullet",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "edu-ingenieur-pieges": {
+      "kind": "education",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "sk-c": {
+      "kind": "skill",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "sk-cpp": {
+      "kind": "skill",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "sk-csharp": {
+      "kind": "skill",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "sk-dotnet": {
+      "kind": "skill",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "sk-cicd": {
+      "kind": "skill",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "std-iec60601-1-2": {
+      "kind": "skill",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "std-iec81001-5-1": {
+      "kind": "skill",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "std-iso13485": {
+      "kind": "skill",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "lang-fr": {
+      "kind": "language",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "lang-en": {
+      "kind": "language",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "int-oeuvre": {
+      "kind": "interest",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "int-escalade": {
+      "kind": "interest",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "langages": {
+      "kind": "category",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "methodes": {
+      "kind": "category",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "reglementaire": {
+      "kind": "category",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "preset-defaut": {
+      "kind": "preset",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    },
+    "lk-github": {
+      "kind": "link",
+      "createdAt": "2026-10-05T08:00:00.000Z"
+    }
+  }
+}

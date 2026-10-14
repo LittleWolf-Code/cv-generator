@@ -1,0 +1,7 @@
+company name,Title,Description,Location,Started On,Finished On
+MedTech Exemple SAS,Ingénieure logiciel embarqué,"• Mise en conformité IEC 62304 (classe B) du logiciel d'une pompe à perfusion : plan de développement, traçabilité exigences-tests, 240 tests unitaires automatisés
+• Revue des exigences logicielles avec l'équipe système : 120 exigences clarifiées
+• Mise en place d'une chaîne CI/CD sous GitLab CI : validation d'une version réduite de 3 jours à 4 heures","Grenoble, Auvergne-Rhône-Alpes, France",Feb 2023,
+Santé Numérique Fictive,Développeuse logiciel,Développement en Python d'une API de télésuivi de patients utilisée par 12 établissements de santé,"Lyon, France",Sep 2019,Jan 2023
+Hôpital Fictif de Villeurbanne,Stagiaire ingénieure biomédicale,"Inventaire du parc de pompes à perfusion et de moniteurs du service de réanimation. Rédaction des procédures de maintenance préventive pour 40 équipements, validées par le responsable biomédical. Formation de 15 soignants à l'utilisation des nouveaux pousse-seringues.",Villeurbanne et périphérie,Printemps 2018,Aug 2018
+Association Fictive du Numérique,Bénévole formatrice,Ateliers d'initiation à la programmation pour collégiens,"Lyon, France",,

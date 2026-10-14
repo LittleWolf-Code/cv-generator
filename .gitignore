@@ -1,0 +1,26 @@
+# Real personal data: never versioned (NF-03)
+data/
+import/
+out/
+.env
+
+# Dependencies and build outputs
+node_modules/
+dist/
+*.tsbuildinfo
+coverage/
+.vite/
+
+# OS / editors
+Thumbs.db
+.DS_Store
+
+# Registered security keys of the online instance (ADR 0018)
+auth/
+
+# Private deployment tooling and server access details of the author's instance: kept on this
+# machine, never published (sanitised before making the repository public, 2026-10-14)
+scripts/vps/
+scripts/deploy-vps.ts
+.mcp.json
+docs/prive/

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "version": 1,
+  "origin": "claude",
+  "basedOn": null,
+  "status": "brouillon",
+  "createdAt": "2026-10-06T09:00:00+02:00",
+  "recipient": {
+    "civility": null,
+    "name": null,
+    "function": "Responsable du recrutement",
+    "company": "ACME Medical",
+    "city": "Grenoble"
+  },
+  "paragraphs": [
+    {
+      "role": "vous",
+      "text": "ACME Medical conçoit des pompes à perfusion et des moniteurs de classe IIb, et recherche un ingénieur logiciel qui applique le cycle de vie de l'IEC 62304. ACME Medical conçoit des pompes à perfusion et des moniteurs de classe IIb, et recherche un ingénieur logiciel qui applique le cycle de vie de l'IEC 62304. ACME Medical conçoit des pompes à perfusion et des moniteurs de classe IIb, et recherche un ingénieur logiciel qui applique le cycle de vie de l'IEC 62304. ACME Medical conçoit des pompes à perfusion et des moniteurs de classe IIb, et recherche un ingénieur logiciel qui applique le cycle de vie de l'IEC 62304. ACME Medical conçoit des pompes à perfusion et des moniteurs de classe IIb, et recherche un ingénieur logiciel qui applique le cycle de vie de l'IEC 62304. ACME Medical conçoit des pompes à perfusion et des moniteurs de classe IIb, et recherche un ingénieur logiciel qui applique le cycle de vie de l'IEC 62304. ACME Medical conçoit des pompes à perfusion et des moniteurs de classe IIb, et recherche un ingénieur logiciel qui applique le cycle de vie de l'IEC 62304. ACME Medical conçoit des pompes à perfusion et des moniteurs de classe IIb, et recherche un ingénieur logiciel qui applique le cycle de vie de l'IEC 62304. ACME Medical conçoit des pompes à perfusion et des moniteurs de classe IIb, et recherche un ingénieur logiciel qui applique le cycle de vie de l'IEC 62304."
+    },
+    {
+      "role": "moi",
+      "text": "Chez MedTech Exemple SAS, j'ai mis en conformité IEC 62304 (classe B) le logiciel d'une pompe à perfusion : plan de développement, traçabilité exigences-tests et 240 tests unitaires automatisés. Chez MedTech Exemple SAS, j'ai mis en conformité IEC 62304 (classe B) le logiciel d'une pompe à perfusion : plan de développement, traçabilité exigences-tests et 240 tests unitaires automatisés. Chez MedTech Exemple SAS, j'ai mis en conformité IEC 62304 (classe B) le logiciel d'une pompe à perfusion : plan de développement, traçabilité exigences-tests et 240 tests unitaires automatisés. Chez MedTech Exemple SAS, j'ai mis en conformité IEC 62304 (classe B) le logiciel d'une pompe à perfusion : plan de développement, traçabilité exigences-tests et 240 tests unitaires automatisés. Chez MedTech Exemple SAS, j'ai mis en conformité IEC 62304 (classe B) le logiciel d'une pompe à perfusion : plan de développement, traçabilité exigences-tests et 240 tests unitaires automatisés. Chez MedTech Exemple SAS, j'ai mis en conformité IEC 62304 (classe B) le logiciel d'une pompe à perfusion : plan de développement, traçabilité exigences-tests et 240 tests unitaires automatisés. Chez MedTech Exemple SAS, j'ai mis en conformité IEC 62304 (classe B) le logiciel d'une pompe à perfusion : plan de développement, traçabilité exigences-tests et 240 tests unitaires automatisés. Chez MedTech Exemple SAS, j'ai mis en conformité IEC 62304 (classe B) le logiciel d'une pompe à perfusion : plan de développement, traçabilité exigences-tests et 240 tests unitaires automatisés."
+    },
+    {
+      "role": "moi",
+      "text": "J'ai conduit l'analyse des risques logiciels selon l'ISO 14971 avec l'équipe qualité, avec 35 mesures de maîtrise tracées. J'ai conduit l'analyse des risques logiciels selon l'ISO 14971 avec l'équipe qualité, avec 35 mesures de maîtrise tracées. J'ai conduit l'analyse des risques logiciels selon l'ISO 14971 avec l'équipe qualité, avec 35 mesures de maîtrise tracées. J'ai conduit l'analyse des risques logiciels selon l'ISO 14971 avec l'équipe qualité, avec 35 mesures de maîtrise tracées. J'ai conduit l'analyse des risques logiciels selon l'ISO 14971 avec l'équipe qualité, avec 35 mesures de maîtrise tracées. J'ai conduit l'analyse des risques logiciels selon l'ISO 14971 avec l'équipe qualité, avec 35 mesures de maîtrise tracées. J'ai conduit l'analyse des risques logiciels selon l'ISO 14971 avec l'équipe qualité, avec 35 mesures de maîtrise tracées. J'ai conduit l'analyse des risques logiciels selon l'ISO 14971 avec l'équipe qualité, avec 35 mesures de maîtrise tracées. J'ai conduit l'analyse des risques logiciels selon l'ISO 14971 avec l'équipe qualité, avec 35 mesures de maîtrise tracées."
+    },
+    {
+      "role": "nous",
+      "text": "Je serais heureuse d'échanger avec vous lors d'un entretien sur vos projets de dispositifs médicaux. Je serais heureuse d'échanger avec vous lors d'un entretien sur vos projets de dispositifs médicaux. Je serais heureuse d'échanger avec vous lors d'un entretien sur vos projets de dispositifs médicaux. Je serais heureuse d'échanger avec vous lors d'un entretien sur vos projets de dispositifs médicaux. Je serais heureuse d'échanger avec vous lors d'un entretien sur vos projets de dispositifs médicaux. Je serais heureuse d'échanger avec vous lors d'un entretien sur vos projets de dispositifs médicaux. Je serais heureuse d'échanger avec vous lors d'un entretien sur vos projets de dispositifs médicaux. Je serais heureuse d'échanger avec vous lors d'un entretien sur vos projets de dispositifs médicaux."
+    }
+  ],
+  "sourceIds": [
+    "exp-medtech-2023",
+    "b-medtech-62304",
+    "b-medtech-risques",
+    "b-medtech-cicd"
+  ]
+}

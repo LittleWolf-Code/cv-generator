@@ -1,0 +1,3 @@
+#!/bin/sh
+# NF-03: refuse any commit that would contain real personal data.
+exec node scripts/guard-commit.mjs

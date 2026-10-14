@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "id": "01JC0FX0000000000000VAR001",
+  "type": "variant",
+  "status": "pending",
+  "origin": "claude",
+  "source": "offre",
+  "createdAt": "2026-10-05T10:05:00",
+  "target": {
+    "collection": "experiences",
+    "itemId": "exp-medtech-2023",
+    "bulletId": "b-medtech-62304",
+    "variantId": null,
+    "field": null
+  },
+  "base": {
+    "file": "library/experiences.json",
+    "revision": 1,
+    "hash": "sha256:8009d248c023e2b941466b91952e32feb16c8e1b3858933c8f502391f68285a7",
+    "snapshot": {
+      "id": "b-medtech-62304",
+      "tags": [
+        "reglementaire",
+        "tests"
+      ],
+      "skills": [
+        "std-iec62304",
+        "std-iso14971"
+      ],
+      "variants": [
+        {
+          "id": "principale",
+          "label": null,
+          "text": {
+            "fr": "Mise en conformité IEC 62304 (classe B) du logiciel d'une pompe à perfusion : plan de développement, traçabilité exigences-tests, 240 tests unitaires automatisés",
+            "en": "Brought infusion-pump software into IEC 62304 (Class B) compliance: development plan, requirements-to-test traceability, 240 automated unit tests"
+          }
+        },
+        {
+          "id": "courte",
+          "label": null,
+          "text": {
+            "fr": "Conformité IEC 62304 (classe B) d'un logiciel de pompe à perfusion",
+            "en": "IEC 62304 (Class B) compliance of infusion-pump software"
+          }
+        }
+      ]
+    }
+  },
+  "payload": {
+    "label": "acme-tracabilite",
+    "text": {
+      "fr": "Conformité IEC 62304 (classe B) d'un logiciel de pompe à perfusion : traçabilité des exigences jusqu'aux 240 tests unitaires automatisés",
+      "en": null
+    }
+  },
+  "rationale": "Met en avant la traçabilité des exigences, terme requis de l'offre ACME.",
+  "checks": [
+    {
+      "rule": "no-new-numbers",
+      "ok": true
+    },
+    {
+      "rule": "no-new-skills",
+      "ok": true
+    },
+    {
+      "rule": "immutable-fields",
+      "ok": true
+    },
+    {
+      "rule": "max-length",
+      "ok": true
+    },
+    {
+      "rule": "similarity",
+      "ok": true,
+      "level": "warning",
+      "value": 0.62
+    }
+  ],
+  "dependsOn": [],
+  "supersedes": null,
+  "resolution": null
+}

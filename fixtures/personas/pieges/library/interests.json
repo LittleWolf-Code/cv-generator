@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "items": [
+    {
+      "id": "int-oeuvre",
+      "text": {
+        "fr": "Œuvre caritative locale",
+        "en": "Local charity work"
+      },
+      "detail": {
+        "fr": "collecte de matériel médical",
+        "en": "medical equipment drive"
+      }
+    },
+    {
+      "id": "int-escalade",
+      "text": {
+        "fr": "Escalade",
+        "en": "Climbing"
+      }
+    }
+  ]
+}

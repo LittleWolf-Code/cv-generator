@@ -1,0 +1,7 @@
+@import 'tailwindcss';
+
+/* Native checkboxes keep their accessible semantics (F-SEL-01); only the focus ring is styled. */
+input[type='checkbox']:focus-visible {
+  outline: 2px solid #1f4e79;
+  outline-offset: 2px;
+}

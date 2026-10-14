@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "items": [
+    {
+      "id": "langages",
+      "label": {
+        "fr": "Langages",
+        "en": "Programming languages"
+      }
+    },
+    {
+      "id": "methodes",
+      "label": {
+        "fr": "Méthodes",
+        "en": "Methods"
+      }
+    },
+    {
+      "id": "reglementaire",
+      "label": {
+        "fr": "Normes et réglementation",
+        "en": "Standards & Regulatory"
+      }
+    }
+  ]
+}

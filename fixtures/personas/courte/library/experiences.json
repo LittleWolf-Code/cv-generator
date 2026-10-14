@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "items": [
+    {
+      "id": "exp-medtech-2023",
+      "position": { "fr": "Ingénieure logiciel embarqué", "en": "Embedded Software Engineer" },
+      "organization": "MedTech Exemple SAS",
+      "location": { "city": "Grenoble", "country": { "fr": "France", "en": "France" } },
+      "contract": "cdi",
+      "start": "2023-02",
+      "end": null,
+      "tags": ["dm", "embarque"],
+      "skills": ["sk-c", "std-iec62304"],
+      "bullets": [
+        {
+          "id": "b-medtech-62304",
+          "tags": ["reglementaire", "tests"],
+          "skills": ["std-iec62304", "std-iso14971"],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Mise en conformité IEC 62304 (classe B) du logiciel d'une pompe à perfusion : plan de développement, traçabilité exigences-tests, 240 tests unitaires automatisés",
+                "en": "Brought infusion-pump software into IEC 62304 (Class B) compliance: development plan, requirements-to-test traceability, 240 automated unit tests"
+              }
+            },
+            {
+              "id": "courte",
+              "text": {
+                "fr": "Conformité IEC 62304 (classe B) d'un logiciel de pompe à perfusion",
+                "en": "IEC 62304 (Class B) compliance of infusion-pump software"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b-medtech-cicd",
+          "tags": ["devops"],
+          "skills": ["sk-cicd", "sk-gitlab-ci"],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Mise en place d'une chaîne CI/CD sous GitLab CI : validation d'une version ramenée de 3 jours à 4 heures",
+                "en": "Set up a CI/CD pipeline on GitLab CI: release validation cut from 3 days to 4 hours"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b-medtech-risques",
+          "tags": ["reglementaire"],
+          "skills": ["std-iso14971"],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Analyse des risques logiciels selon l'ISO 14971 avec l'équipe qualité : 35 mesures de maîtrise tracées",
+                "en": "Software risk analysis per ISO 14971 with the quality team: 35 risk controls traced"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exp-santenum-2019",
+      "position": { "fr": "Développeuse logiciel", "en": "Software Developer" },
+      "organization": "Santé Numérique Fictive",
+      "location": { "city": "Lyon", "country": { "fr": "France", "en": "France" } },
+      "contract": "cdi",
+      "start": "2019-09",
+      "end": "2023-01",
+      "tags": ["sante", "backend"],
+      "skills": ["sk-python"],
+      "bullets": [
+        {
+          "id": "b-santenum-api",
+          "tags": ["backend"],
+          "skills": ["sk-python"],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Développement en Python d'une API de télésuivi de patients utilisée par 12 établissements de santé",
+                "en": "Developed a Python remote patient monitoring API used by 12 healthcare facilities"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b-santenum-tests",
+          "tags": ["tests"],
+          "skills": ["sk-tdd"],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Couverture de tests portée de 45 % à 85 % et revue de code systématique",
+                "en": "Raised test coverage from 45% to 85% and introduced systematic code review"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exp-labo-2019",
+      "position": { "fr": "Ingénieure R&D", "en": "R&D Engineer" },
+      "organization": "Laboratoire Biomédical Exemple",
+      "location": { "city": "Grenoble", "country": { "fr": "France", "en": "France" } },
+      "contract": "stage",
+      "start": "2019-02",
+      "end": "2019-07",
+      "tags": ["embarque"],
+      "skills": ["sk-c"],
+      "bullets": [
+        {
+          "id": "b-labo-ecg",
+          "tags": ["embarque"],
+          "skills": ["sk-c"],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Prototype de traitement du signal ECG en C sur microcontrôleur ARM Cortex-M4",
+                "en": "Prototyped ECG signal processing in C on an ARM Cortex-M4 microcontroller"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

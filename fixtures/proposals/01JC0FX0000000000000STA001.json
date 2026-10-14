@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "id": "01JC0FX0000000000000STA001",
+  "type": "variant",
+  "status": "pending",
+  "origin": "claude",
+  "source": "offre",
+  "createdAt": "2026-10-05T10:07:00",
+  "target": {
+    "collection": "experiences",
+    "itemId": "exp-medtech-2023",
+    "bulletId": "b-medtech-cicd",
+    "variantId": null,
+    "field": null
+  },
+  "base": {
+    "file": "library/experiences.json",
+    "revision": 0,
+    "hash": "sha256:7152e97b1f17e9297dd0aac7a470da43653196f9cf71140808c607d41bccdb40",
+    "snapshot": {
+      "id": "b-medtech-cicd",
+      "tags": [
+        "devops"
+      ],
+      "skills": [
+        "sk-cicd",
+        "sk-gitlab-ci"
+      ],
+      "variants": [
+        {
+          "id": "principale",
+          "label": null,
+          "text": {
+            "fr": "Mise en place de l'intégration continue sous GitLab CI : validation d'une version ramenée de 3 jours à 4 heures",
+            "en": "Set up a CI/CD pipeline on GitLab CI: release validation cut from 3 days to 4 hours"
+          }
+        }
+      ]
+    }
+  },
+  "payload": {
+    "label": "acme-devops",
+    "text": {
+      "fr": "Mise en place de l'intégration et du déploiement continus (CI/CD) sous GitLab CI : validation d'une version ramenée de 3 jours à 4 heures",
+      "en": "Set up continuous integration and delivery (CI/CD) on GitLab CI: release validation cut from 3 days to 4 hours"
+    }
+  },
+  "rationale": "Cas « stale » : la puce a été reformulée dans la bibliothèque après le calcul de cette proposition (instantané de base différent de la version actuelle).",
+  "checks": [
+    {
+      "rule": "no-new-numbers",
+      "ok": true
+    },
+    {
+      "rule": "no-new-skills",
+      "ok": true
+    },
+    {
+      "rule": "immutable-fields",
+      "ok": true
+    },
+    {
+      "rule": "max-length",
+      "ok": true
+    },
+    {
+      "rule": "similarity",
+      "ok": true,
+      "level": "warning",
+      "value": 0.58
+    }
+  ],
+  "dependsOn": [],
+  "supersedes": null,
+  "resolution": null
+}

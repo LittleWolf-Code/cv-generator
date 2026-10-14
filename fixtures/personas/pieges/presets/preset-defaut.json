@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "id": "preset-defaut",
+  "name": "Pièges ATS",
+  "isDefault": true,
+  "lang": "fr",
+  "enVariant": "en-GB",
+  "template": {
+    "layout": "ats-classique",
+    "theme": {
+      "font": "carlito",
+      "accent": "#1F4E79",
+      "density": "normale"
+    }
+  },
+  "selection": {
+    "titleId": "ttl-cyber-dm",
+    "summaryId": "sum-cyber",
+    "sections": [
+      {
+        "key": "summary",
+        "enabled": true
+      },
+      {
+        "key": "experience",
+        "enabled": true
+      },
+      {
+        "key": "skills",
+        "enabled": true
+      },
+      {
+        "key": "regulatory",
+        "enabled": true
+      },
+      {
+        "key": "education",
+        "enabled": true
+      },
+      {
+        "key": "projects",
+        "enabled": false
+      },
+      {
+        "key": "certifications",
+        "enabled": false
+      },
+      {
+        "key": "languages",
+        "enabled": true
+      },
+      {
+        "key": "interests",
+        "enabled": true
+      }
+    ],
+    "include": [
+      "exp-cyber-2021",
+      "b-pieges-cem",
+      "b-pieges-qms",
+      "b-pieges-trace",
+      "b-pieges-liens",
+      "b-pieges-recherche",
+      "b-pieges-oeuvre",
+      "b-pieges-ateliers",
+      "exp-dev-2019",
+      "b-pieges-firmware",
+      "edu-ingenieur-pieges",
+      "sk-c",
+      "sk-cpp",
+      "sk-csharp",
+      "sk-dotnet",
+      "sk-cicd",
+      "std-iec60601-1-2",
+      "std-iec81001-5-1",
+      "std-iso13485",
+      "lang-fr",
+      "lang-en",
+      "int-oeuvre",
+      "int-escalade"
+    ],
+    "order": {},
+    "variantChoice": {},
+    "overrides": {}
+  },
+  "options": {
+    "photo": false,
+    "drivingLicense": false,
+    "workAuthorization": false,
+    "links": [
+      "lk-github"
+    ],
+    "dateStyle": "numerique",
+    "regulatoryPlacement": "skills-subgroup",
+    "referencesNote": false
+  },
+  "fileLabel": "Ingenieur-e-cybersecurite-DM"
+}

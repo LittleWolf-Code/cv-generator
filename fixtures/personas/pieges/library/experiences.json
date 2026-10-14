@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "items": [
+    {
+      "id": "exp-cyber-2021",
+      "position": {
+        "fr": "Ingénieur logiciel sénior chargée de la conformité réglementaire et de la cybersécurité DM",
+        "en": "Senior software engineer in charge of regulatory compliance and cybersecurity of medical devices"
+      },
+      "organization": "Dispositifs Connectés Exemple SA",
+      "location": {
+        "city": "Lyon",
+        "country": {
+          "fr": "France",
+          "en": "France"
+        }
+      },
+      "contract": "cdi",
+      "start": "2021-03",
+      "end": null,
+      "tags": [],
+      "skills": [],
+      "bullets": [
+        {
+          "id": "b-pieges-cem",
+          "tags": [],
+          "skills": [
+            "std-iec60601-1-2",
+            "std-iec81001-5-1"
+          ],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Validation CEM selon l'IEC 60601-1-2 et sécurité selon l\u2019IEC 81001-5-1 d'un dispositif connecté",
+                "en": "EMC validation per IEC 60601-1-2 and security per IEC 81001-5-1 of a connected device"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b-pieges-qms",
+          "tags": [],
+          "skills": [
+            "std-iso13485",
+            "sk-cicd",
+            "sk-cpp",
+            "sk-csharp",
+            "sk-dotnet"
+          ],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Certification ISO 13485:2016 du système qualité et chaîne CI/CD pour des outils en C++, C# et .NET",
+                "en": "ISO 13485:2016 certification of the quality system and CI/CD pipeline for C++, C# and .NET tools"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b-pieges-trace",
+          "tags": [],
+          "skills": [],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Matrice de traçabilité exigences–tests générée automatiquement à chaque version",
+                "en": "Automatically generated requirements-to-test traceability matrix for every release"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b-pieges-liens",
+          "tags": [],
+          "skills": [],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Articles techniques publiés sur medium.com/@nom et paquet npm @scope/paquet maintenu",
+                "en": "Technical articles published on medium.com/@nom and maintained npm package @scope/paquet"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b-pieges-recherche",
+          "tags": [],
+          "skills": [],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Projet de recherche collaboratif 2019 - 2021 sur la détection d\u2019arythmies en temps\u2011réel",
+                "en": "Collaborative research project 2019 - 2021 on real\u2011time arrhythmia detection"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b-pieges-oeuvre",
+          "tags": [],
+          "skills": [
+            "sk-c"
+          ],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Mise en œuvre d'un micro\u200Bcontrôleur basse consommation : autonomie augmentée de 45\u202F%",
+                "en": "Implemented a low-power micro\u200Bcontroller: battery life increased by 45%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b-pieges-ateliers",
+          "tags": [],
+          "skills": [],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Lyon\u00A0: animation d\u2019ateliers sur la sécurité des dispo\u00ADsitifs médicaux",
+                "en": "Lyon: ran workshops on the security of medical devices"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exp-dev-2019",
+      "position": {
+        "fr": "Développeur·euse logiciel embarqué",
+        "en": "Embedded Software Developer"
+      },
+      "organization": "Électronique Médicale Fictive",
+      "location": {
+        "city": "Grenoble",
+        "country": {
+          "fr": "France",
+          "en": "France"
+        }
+      },
+      "contract": "cdi",
+      "start": "2019-09",
+      "end": "2021-02",
+      "tags": [],
+      "skills": [
+        "sk-c"
+      ],
+      "bullets": [
+        {
+          "id": "b-pieges-firmware",
+          "tags": [],
+          "skills": [
+            "sk-c"
+          ],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Développement du micrologiciel d\u2019un moniteur multiparamétrique de classe IIb",
+                "en": "Developed the firmware of a Class IIb multiparameter monitor"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

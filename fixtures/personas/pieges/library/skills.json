@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "items": [
+    {
+      "id": "sk-c",
+      "category": "langages",
+      "short": "C",
+      "ambiguous": true
+    },
+    {
+      "id": "sk-cpp",
+      "category": "langages",
+      "short": "C++"
+    },
+    {
+      "id": "sk-csharp",
+      "category": "langages",
+      "short": "C#"
+    },
+    {
+      "id": "sk-dotnet",
+      "category": "langages",
+      "short": ".NET"
+    },
+    {
+      "id": "sk-cicd",
+      "category": "methodes",
+      "short": "CI/CD",
+      "long": {
+        "fr": "intégration et déploiement continus",
+        "en": "continuous integration and delivery"
+      }
+    },
+    {
+      "id": "std-iec60601-1-2",
+      "category": "reglementaire",
+      "short": "IEC 60601-1-2",
+      "code": "IEC 60601-1-2",
+      "edition": "2014+AMD1:2020",
+      "long": {
+        "fr": "perturbations électromagnétiques des appareils électromédicaux",
+        "en": "electromagnetic disturbances of medical electrical equipment"
+      },
+      "aliases": [
+        "CEI 60601-1-2",
+        "EN 60601-1-2"
+      ]
+    },
+    {
+      "id": "std-iec81001-5-1",
+      "category": "reglementaire",
+      "short": "IEC 81001-5-1",
+      "code": "IEC 81001-5-1",
+      "edition": "2021",
+      "long": {
+        "fr": "sécurité des logiciels de santé",
+        "en": "health software security"
+      },
+      "aliases": [
+        "CEI 81001-5-1",
+        "EN IEC 81001-5-1"
+      ]
+    },
+    {
+      "id": "std-iso13485",
+      "category": "reglementaire",
+      "short": "ISO 13485",
+      "code": "ISO 13485",
+      "edition": "2016",
+      "long": {
+        "fr": "management de la qualité des dispositifs médicaux",
+        "en": "quality management for medical devices"
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "version": 1,
+  "origin": "claude",
+  "basedOn": null,
+  "status": "brouillon",
+  "createdAt": "2026-10-06T09:00:00+02:00",
+  "recipient": {
+    "civility": null,
+    "name": null,
+    "function": "Responsable du recrutement",
+    "company": "ACME Medical",
+    "city": "Grenoble"
+  },
+  "paragraphs": [
+    {
+      "role": "vous",
+      "text": "ACME Medical conçoit des pompes à perfusion et des moniteurs de classe IIb, et recherche un ingénieur logiciel qui applique le cycle de vie de l'IEC 62304, des exigences jusqu'aux tests. C'est précisément le cadre dans lequel je travaille depuis trois ans."
+    },
+    {
+      "role": "moi",
+      "text": "Chez MedTech Exemple SAS, j'ai mis en conformité IEC 62304 (classe B) le logiciel d'une pompe à perfusion : plan de développement, traçabilité exigences-tests et 240 tests unitaires automatisés. J'ai aussi conduit l'analyse des risques logiciels selon l'ISO 14971 avec l'équipe qualité, avec 35 mesures de maîtrise tracées, et ramené la validation d'une version de 3 jours à 4 heures grâce à une chaîne CI/CD sous GitLab CI."
+    },
+    {
+      "role": "nous",
+      "text": "Je serais heureuse de mettre cette expérience au service de vos équipes et d'échanger avec vous, lors d'un entretien, sur vos projets de dispositifs médicaux."
+    }
+  ],
+  "sourceIds": [
+    "exp-medtech-2023",
+    "b-medtech-62304",
+    "b-medtech-risques",
+    "b-medtech-cicd"
+  ]
+}

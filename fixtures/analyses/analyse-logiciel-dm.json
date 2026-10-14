@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "current": {
+    "origin": "claude",
+    "createdAt": "2026-10-05T10:00:00",
+    "terms": [
+      {
+        "term": "Ingénieur logiciel dispositifs médicaux",
+        "aliases": [],
+        "weight": "titre",
+        "domain": "dm",
+        "sourceSentence": "Ingénieur logiciel dispositifs médicaux H/F"
+      },
+      {
+        "term": "IEC 62304",
+        "aliases": ["CEI 62304"],
+        "weight": "requis",
+        "domain": "dm",
+        "sourceSentence": "Maîtrise de la norme IEC 62304 exigée."
+      },
+      {
+        "term": "C++",
+        "aliases": [],
+        "weight": "requis",
+        "domain": "tech",
+        "sourceSentence": "Développer le logiciel embarqué en C et C++ de nos dispositifs médicaux."
+      },
+      {
+        "term": "traçabilité des exigences",
+        "aliases": ["requirements traceability"],
+        "weight": "requis",
+        "domain": "dm",
+        "sourceSentence": "Assurer la traçabilité des exigences jusqu'aux tests unitaires et d'intégration."
+      },
+      {
+        "term": "cycle de vie logiciel",
+        "aliases": ["software life cycle"],
+        "weight": "requis",
+        "domain": "dm",
+        "sourceSentence": "Appliquer le cycle de vie logiciel défini par l'IEC 62304 : plans, exigences, architecture, vérification."
+      },
+      {
+        "term": "ISO 14971",
+        "aliases": [],
+        "weight": "souhaite",
+        "domain": "dm",
+        "sourceSentence": "La connaissance de l'ISO 14971 est un plus."
+      },
+      {
+        "term": "ISO 13485",
+        "aliases": [],
+        "weight": "souhaite",
+        "domain": "dm",
+        "sourceSentence": "Expérience des systèmes de management de la qualité ISO 13485 appréciée."
+      },
+      {
+        "term": "Git",
+        "aliases": [],
+        "weight": "souhaite",
+        "domain": "tech",
+        "sourceSentence": "Pratique de Git et des revues de code."
+      },
+      {
+        "term": "gestion des risques",
+        "aliases": ["risk management"],
+        "weight": "souhaite",
+        "domain": "dm",
+        "sourceSentence": "Contribuer à la gestion des risques selon l'ISO 14971 avec l'équipe qualité."
+      },
+      {
+        "term": "génie biomédical",
+        "aliases": [],
+        "weight": "souhaite",
+        "domain": "general",
+        "sourceSentence": "Formation d'ingénieur en informatique, électronique ou génie biomédical."
+      },
+      {
+        "term": "tests d'intégration",
+        "aliases": ["integration testing"],
+        "weight": "souhaite",
+        "domain": "tech",
+        "sourceSentence": "Assurer la traçabilité des exigences jusqu'aux tests unitaires et d'intégration."
+      }
+    ]
+  },
+  "history": []
+}

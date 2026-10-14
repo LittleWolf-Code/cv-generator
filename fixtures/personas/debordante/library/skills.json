@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "items": [
+    { "id": "sk-c", "category": "langages", "short": "C", "long": null, "aliases": [], "related": ["C embarqué"], "ambiguous": true },
+    { "id": "sk-cpp", "category": "langages", "short": "C++", "long": null, "aliases": [], "related": [] },
+    { "id": "sk-python", "category": "langages", "short": "Python", "long": null, "aliases": [], "related": [] },
+    { "id": "sk-git", "category": "outils", "short": "Git", "long": null },
+    { "id": "sk-gitlab-ci", "category": "outils", "short": "GitLab CI", "long": null, "related": ["GitHub Actions"] },
+    {
+      "id": "sk-cicd",
+      "category": "methodes",
+      "short": "CI/CD",
+      "long": { "fr": "intégration et déploiement continus", "en": "continuous integration and delivery" },
+      "related": ["intégration continue", "continuous integration"]
+    },
+    {
+      "id": "sk-tdd",
+      "category": "methodes",
+      "short": "TDD",
+      "long": { "fr": "développement piloté par les tests", "en": "test-driven development" }
+    },
+    {
+      "id": "std-iec62304",
+      "category": "reglementaire",
+      "short": "IEC 62304",
+      "code": "IEC 62304",
+      "edition": "2006+AMD1:2015",
+      "long": { "fr": "cycle de vie du logiciel de dispositif médical", "en": "medical device software life cycle" },
+      "aliases": ["CEI 62304", "EN 62304", "NF EN 62304"],
+      "related": ["cycle de vie logiciel", "software life cycle"]
+    },
+    {
+      "id": "std-iso14971",
+      "category": "reglementaire",
+      "short": "ISO 14971",
+      "code": "ISO 14971",
+      "edition": "2019",
+      "long": { "fr": "gestion des risques des dispositifs médicaux", "en": "risk management for medical devices" },
+      "aliases": ["NF EN ISO 14971", "EN ISO 14971"],
+      "related": ["gestion des risques", "risk management"]
+    },
+    {
+      "id": "std-iso13485",
+      "category": "reglementaire",
+      "short": "ISO 13485",
+      "code": "ISO 13485",
+      "edition": "2016",
+      "long": { "fr": "management de la qualité des dispositifs médicaux", "en": "quality management for medical devices" },
+      "aliases": ["NF EN ISO 13485", "EN ISO 13485"],
+      "related": ["SMQ", "QMS"]
+    }
+  ]
+}

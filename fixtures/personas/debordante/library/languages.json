@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "items": [
+    {
+      "id": "lang-fr",
+      "code": "fr",
+      "language": {
+        "fr": "Français",
+        "en": "French"
+      },
+      "cefr": "native"
+    },
+    {
+      "id": "lang-en",
+      "code": "en",
+      "language": {
+        "fr": "Anglais",
+        "en": "English"
+      },
+      "cefr": "C1",
+      "certification": {
+        "name": "TOEIC",
+        "score": "945",
+        "year": "2025"
+      }
+    },
+    {
+      "id": "lang-de",
+      "code": "de",
+      "language": {
+        "fr": "Allemand",
+        "en": "German"
+      },
+      "cefr": "B1"
+    }
+  ]
+}

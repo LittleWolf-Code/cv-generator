@@ -1,0 +1,15 @@
+# Normalize line endings: LF in the repository and in the working tree (NF-05)
+* text=auto eol=lf
+
+*.cmd text eol=crlf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+# Binary assets
+*.ttf binary
+*.otf binary
+*.pdf binary
+*.docx binary
+*.png binary
+*.jpg binary
+*.zip binary

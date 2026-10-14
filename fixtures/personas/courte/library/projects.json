@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "items": [
+    {
+      "id": "prj-tracabilite",
+      "name": { "fr": "Outil de traçabilité exigences-tests", "en": "Requirements-to-test traceability tool" },
+      "role": { "fr": "projet personnel", "en": "personal project" },
+      "url": {
+        "url": "https://camille-martin-fictif.github.io/tracabilite/",
+        "display": "camille-martin-fictif.github.io/tracabilite"
+      },
+      "repos": [
+        {
+          "url": "https://github.com/camille-martin-fictif/tracabilite",
+          "display": "github.com/camille-martin-fictif/tracabilite"
+        },
+        {
+          "url": "https://github.com/camille-martin-fictif/tracabilite-cli",
+          "display": "github.com/camille-martin-fictif/tracabilite-cli"
+        }
+      ],
+      "start": "2024-03",
+      "end": null,
+      "tags": ["dm", "outillage"],
+      "skills": ["sk-python"],
+      "bullets": [
+        {
+          "id": "b-tracabilite-export",
+          "tags": [],
+          "skills": ["sk-python"],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Génération automatique de la matrice de traçabilité à partir des tickets et des résultats de tests",
+                "en": "Automatic generation of the traceability matrix from tickets and test results"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

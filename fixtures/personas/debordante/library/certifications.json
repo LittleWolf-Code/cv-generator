@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "items": [
+    {
+      "id": "cert-auditeur-13485",
+      "name": {
+        "fr": "Auditrice interne ISO 13485",
+        "en": "ISO 13485 Internal Auditor"
+      },
+      "issuer": "Organisme de Formation Fictif",
+      "date": "2024-05",
+      "skills": [
+        "std-iso13485"
+      ]
+    },
+    {
+      "id": "cert-scrum",
+      "name": {
+        "fr": "Professional Scrum Master I",
+        "en": "Professional Scrum Master I"
+      },
+      "issuer": "Organisme de Certification Fictif",
+      "date": "2022-11",
+      "skills": []
+    }
+  ]
+}

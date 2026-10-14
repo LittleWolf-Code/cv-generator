@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "id": "01JC0FX0000000000000NEW001",
+  "type": "item",
+  "status": "pending",
+  "origin": "claude",
+  "source": "dictee",
+  "createdAt": "2026-10-05T10:10:00",
+  "userStatement": "J'utilise Docker tous les jours pour les environnements de test du logiciel.",
+  "target": { "collection": "skills", "itemId": null, "bulletId": null, "variantId": null, "field": null },
+  "base": null,
+  "payload": {
+    "itemType": "skill",
+    "item": {
+      "id": "sk-docker",
+      "category": "outils",
+      "short": "Docker",
+      "long": null,
+      "aliases": [],
+      "related": ["conteneurs", "containers"],
+      "ambiguous": false,
+      "tags": ["devops"]
+    },
+    "duplicateOf": null
+  },
+  "rationale": "Compétence dictée par l'utilisatrice, absente de la bibliothèque.",
+  "checks": [{ "rule": "no-new-skills", "ok": true, "message": "source : déclaration de l'utilisatrice" }],
+  "dependsOn": [],
+  "supersedes": null,
+  "resolution": null
+}

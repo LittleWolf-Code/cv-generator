@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "items": [
+    {
+      "id": "sum-cyber",
+      "tags": [],
+      "variants": [
+        {
+          "id": "principale",
+          "text": {
+            "fr": "\u2018Œuvre\u2019 utile : 6 ans d\u2019expérience en logiciel de dispositifs médicaux connectés, de la conformité IEC\u00A062304 à la cybersécurité.",
+            "en": "Six years of experience in connected medical device software, from IEC 62304 compliance to cybersecurity."
+          }
+        }
+      ]
+    }
+  ]
+}

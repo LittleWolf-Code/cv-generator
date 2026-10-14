@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "items": [
+    {
+      "id": "ttl-logiciel-dm",
+      "tags": ["dm"],
+      "variants": [
+        {
+          "id": "principale",
+          "text": { "fr": "Ingénieure logiciel dispositifs médicaux", "en": "Medical Device Software Engineer" }
+        }
+      ]
+    }
+  ]
+}

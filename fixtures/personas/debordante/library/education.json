@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "items": [
+    {
+      "id": "edu-ingenieur-2019",
+      "degree": {
+        "fr": "Diplôme d'ingénieur",
+        "en": "Diplôme d'Ingénieur"
+      },
+      "field": {
+        "fr": "génie biomédical",
+        "en": "Biomedical Engineering"
+      },
+      "institution": "École Fictive d'Ingénieurs de Lyon",
+      "location": {
+        "city": "Lyon",
+        "country": {
+          "fr": "France",
+          "en": "France"
+        }
+      },
+      "start": "2016-09",
+      "end": "2019-09",
+      "honors": null,
+      "levelEquivalent": {
+        "fr": "Bac+5, grade de master",
+        "en": "Master's degree in Engineering, EQF level 7"
+      },
+      "tags": [
+        "dm"
+      ],
+      "skills": [],
+      "bullets": []
+    },
+    {
+      "id": "edu-licence-2016",
+      "degree": {
+        "fr": "Licence",
+        "en": "Licence"
+      },
+      "field": {
+        "fr": "physique et applications",
+        "en": "Physics and Applications"
+      },
+      "institution": "Université Fictive de Grenoble",
+      "location": {
+        "city": "Grenoble",
+        "country": {
+          "fr": "France",
+          "en": "France"
+        }
+      },
+      "start": "2013-09",
+      "end": "2016-06",
+      "honors": {
+        "fr": "mention bien",
+        "en": "with honours"
+      },
+      "levelEquivalent": {
+        "fr": "Bac+3",
+        "en": "Bachelor's degree, EQF level 6"
+      },
+      "tags": [],
+      "skills": [],
+      "bullets": []
+    }
+  ]
+}

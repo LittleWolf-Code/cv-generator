@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "items": [
+    {
+      "id": "lang-fr",
+      "code": "fr",
+      "language": {
+        "fr": "Français",
+        "en": "French"
+      },
+      "cefr": "native"
+    },
+    {
+      "id": "lang-en",
+      "code": "en",
+      "language": {
+        "fr": "Anglais",
+        "en": "English"
+      },
+      "cefr": "C1",
+      "certification": {
+        "name": "IELTS",
+        "score": "7.5",
+        "year": "2024"
+      }
+    }
+  ]
+}

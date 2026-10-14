@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "id": "01JC0FX0000000000000SYN001",
+  "type": "alias",
+  "status": "pending",
+  "origin": "claude",
+  "source": "offre",
+  "createdAt": "2026-10-05T10:09:00",
+  "target": {
+    "collection": "skills",
+    "itemId": "sk-python",
+    "bulletId": null,
+    "variantId": null,
+    "field": "aliases"
+  },
+  "base": {
+    "file": "library/skills.json",
+    "revision": 1,
+    "hash": "sha256:63083678ca497f5151ff79dcf702ef8e02b9681573a1e39cb571fc4942d3a582",
+    "snapshot": {
+      "id": "sk-python",
+      "tags": [],
+      "locked": false,
+      "archived": false,
+      "category": "langages",
+      "short": "Python",
+      "long": null,
+      "code": null,
+      "edition": null,
+      "aliases": [],
+      "related": [],
+      "ambiguous": false
+    }
+  },
+  "payload": {
+    "skillId": "sk-python",
+    "alias": "Python 3",
+    "kind": "alias",
+    "sourceTerm": "Python 3"
+  },
+  "rationale": "L'offre écrit « Python 3 » : c'est un équivalent strict de la compétence Python (groupe b de F-OFF-03).",
+  "checks": [],
+  "dependsOn": [],
+  "supersedes": null,
+  "resolution": null
+}

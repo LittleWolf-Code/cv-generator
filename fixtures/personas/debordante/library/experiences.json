@@ -1,0 +1,493 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "items": [
+    {
+      "id": "exp-medtech-2023",
+      "position": {
+        "fr": "Ingénieure logiciel embarqué",
+        "en": "Embedded Software Engineer"
+      },
+      "organization": "MedTech Exemple SAS",
+      "location": {
+        "city": "Grenoble",
+        "country": {
+          "fr": "France",
+          "en": "France"
+        }
+      },
+      "contract": "cdi",
+      "start": "2023-02",
+      "end": null,
+      "tags": [
+        "dm",
+        "embarque"
+      ],
+      "skills": [
+        "sk-c",
+        "std-iec62304"
+      ],
+      "bullets": [
+        {
+          "id": "b-medtech-62304",
+          "tags": [
+            "reglementaire",
+            "tests"
+          ],
+          "skills": [
+            "std-iec62304",
+            "std-iso14971"
+          ],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Mise en conformité IEC 62304 (classe B) du logiciel d'une pompe à perfusion : plan de développement, traçabilité exigences-tests, 240 tests unitaires automatisés",
+                "en": "Brought infusion-pump software into IEC 62304 (Class B) compliance: development plan, requirements-to-test traceability, 240 automated unit tests"
+              }
+            },
+            {
+              "id": "courte",
+              "text": {
+                "fr": "Conformité IEC 62304 (classe B) d'un logiciel de pompe à perfusion",
+                "en": "IEC 62304 (Class B) compliance of infusion-pump software"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b-medtech-cicd",
+          "tags": [
+            "devops"
+          ],
+          "skills": [
+            "sk-cicd",
+            "sk-gitlab-ci"
+          ],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Mise en place d'une chaîne CI/CD sous GitLab CI : validation d'une version ramenée de 3 jours à 4 heures",
+                "en": "Set up a CI/CD pipeline on GitLab CI: release validation cut from 3 days to 4 hours"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b-medtech-risques",
+          "tags": [
+            "reglementaire"
+          ],
+          "skills": [
+            "std-iso14971"
+          ],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Analyse des risques logiciels selon l'ISO 14971 avec l'équipe qualité : 35 mesures de maîtrise tracées",
+                "en": "Software risk analysis per ISO 14971 with the quality team: 35 risk controls traced"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b-medtech-revue",
+          "tags": [],
+          "skills": [
+            "std-iec62304"
+          ],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Animation des revues de conception logicielle et rédaction de l'architecture détaillée du module de dosage",
+                "en": "Led software design reviews and wrote the detailed architecture of the dosing module"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b-medtech-capa",
+          "tags": [],
+          "skills": [
+            "std-iso13485"
+          ],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Traitement de 14 actions correctives (CAPA) issues des retours terrain, en lien avec l'assurance qualité",
+                "en": "Handled 14 corrective actions (CAPA) from field feedback together with quality assurance"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b-medtech-mentor",
+          "tags": [],
+          "skills": [],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Encadrement de 2 ingénieurs juniors et d'un stagiaire sur les bonnes pratiques de test",
+                "en": "Mentored 2 junior engineers and an intern on testing best practices"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b-medtech-cyber",
+          "tags": [],
+          "skills": [],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Contribution au dossier de cybersécurité du dispositif : modèle de menaces et plan de gestion des vulnérabilités",
+                "en": "Contributed to the device cybersecurity file: threat model and vulnerability management plan"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b-medtech-audit",
+          "tags": [],
+          "skills": [
+            "std-iso13485"
+          ],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Préparation et participation à l'audit de l'organisme notifié, sans écart majeur sur le périmètre logiciel",
+                "en": "Prepared and took part in the notified body audit, with no major nonconformity on the software scope"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exp-santenum-2019",
+      "position": {
+        "fr": "Développeuse logiciel",
+        "en": "Software Developer"
+      },
+      "organization": "Santé Numérique Fictive",
+      "location": {
+        "city": "Lyon",
+        "country": {
+          "fr": "France",
+          "en": "France"
+        }
+      },
+      "contract": "cdi",
+      "start": "2019-09",
+      "end": "2023-01",
+      "tags": [
+        "sante",
+        "backend"
+      ],
+      "skills": [
+        "sk-python"
+      ],
+      "bullets": [
+        {
+          "id": "b-santenum-api",
+          "tags": [
+            "backend"
+          ],
+          "skills": [
+            "sk-python"
+          ],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Développement en Python d'une API de télésuivi de patients utilisée par 12 établissements de santé",
+                "en": "Developed a Python remote patient monitoring API used by 12 healthcare facilities"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b-santenum-tests",
+          "tags": [
+            "tests"
+          ],
+          "skills": [
+            "sk-tdd"
+          ],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Couverture de tests portée de 45 % à 85 % et revue de code systématique",
+                "en": "Raised test coverage from 45% to 85% and introduced systematic code review"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b-santenum-rgpd",
+          "tags": [],
+          "skills": [],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Mise en conformité RGPD du traitement des données de santé : chiffrement, journalisation des accès et analyse d'impact",
+                "en": "GDPR compliance of health data processing: encryption, access logging and impact assessment"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b-santenum-perf",
+          "tags": [],
+          "skills": [
+            "sk-python"
+          ],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Optimisation des requêtes de la base de données : temps de réponse moyen divisé par 3",
+                "en": "Optimized database queries: average response time divided by 3"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b-santenum-astreinte",
+          "tags": [],
+          "skills": [],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Organisation de l'astreinte de production et rédaction de 25 procédures d'exploitation",
+                "en": "Organized the production on-call rota and wrote 25 operating procedures"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b-santenum-interop",
+          "tags": [],
+          "skills": [],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Développement des échanges de données avec les dossiers patients des établissements partenaires",
+                "en": "Built data exchanges with the patient records of partner facilities"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exp-labo-2019",
+      "position": {
+        "fr": "Ingénieure R&D",
+        "en": "R&D Engineer"
+      },
+      "organization": "Laboratoire Biomédical Exemple",
+      "location": {
+        "city": "Grenoble",
+        "country": {
+          "fr": "France",
+          "en": "France"
+        }
+      },
+      "contract": "stage",
+      "start": "2019-02",
+      "end": "2019-07",
+      "tags": [
+        "embarque"
+      ],
+      "skills": [
+        "sk-c"
+      ],
+      "bullets": [
+        {
+          "id": "b-labo-ecg",
+          "tags": [
+            "embarque"
+          ],
+          "skills": [
+            "sk-c"
+          ],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Prototype de traitement du signal ECG en C sur microcontrôleur ARM Cortex-M4",
+                "en": "Prototyped ECG signal processing in C on an ARM Cortex-M4 microcontroller"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b-labo-banc",
+          "tags": [],
+          "skills": [
+            "sk-c"
+          ],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Conception d'un banc de test automatisé pour la validation des algorithmes de détection",
+                "en": "Designed an automated test bench to validate the detection algorithms"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exp-hopital-2017",
+      "position": {
+        "fr": "Technicienne biomédicale",
+        "en": "Biomedical Technician"
+      },
+      "organization": "Hôpital Universitaire Fictif",
+      "location": {
+        "city": "Lyon",
+        "country": {
+          "fr": "France",
+          "en": "France"
+        }
+      },
+      "contract": "alternance",
+      "start": "2017-09",
+      "end": "2018-08",
+      "tags": [
+        "dm"
+      ],
+      "skills": [],
+      "bullets": [
+        {
+          "id": "b-hopital-maintenance",
+          "tags": [],
+          "skills": [],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Maintenance préventive et curative de 120 équipements de surveillance des patients",
+                "en": "Preventive and corrective maintenance of 120 patient monitoring devices"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b-hopital-materiovigilance",
+          "tags": [],
+          "skills": [],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Participation aux déclarations de matériovigilance et au suivi des rappels de lots",
+                "en": "Contributed to vigilance reports and to the follow-up of batch recalls"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b-hopital-formation",
+          "tags": [],
+          "skills": [],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Formation de 40 soignants à l'utilisation des pousse-seringues",
+                "en": "Trained 40 nurses on the use of syringe pumps"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exp-institut-2015",
+      "position": {
+        "fr": "Assistante de recherche",
+        "en": "Research Assistant"
+      },
+      "organization": "Institut Fictif de Recherche en Santé",
+      "location": {
+        "city": "Grenoble",
+        "country": {
+          "fr": "France",
+          "en": "France"
+        }
+      },
+      "contract": "cdd",
+      "start": "2015-09",
+      "end": "2016-08",
+      "tags": [
+        "recherche"
+      ],
+      "skills": [
+        "sk-python"
+      ],
+      "bullets": [
+        {
+          "id": "b-institut-donnees",
+          "tags": [],
+          "skills": [
+            "sk-python"
+          ],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Nettoyage et analyse statistique d'une cohorte de 2 000 enregistrements de capteurs portés",
+                "en": "Cleaned and statistically analysed a cohort of 2,000 wearable sensor recordings"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b-institut-publication",
+          "tags": [],
+          "skills": [],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Co-autrice d'un poster présenté lors d'un congrès national d'ingénierie biomédicale",
+                "en": "Co-authored a poster presented at a national biomedical engineering conference"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b-institut-outils",
+          "tags": [],
+          "skills": [
+            "sk-git"
+          ],
+          "variants": [
+            {
+              "id": "principale",
+              "text": {
+                "fr": "Mise en place d'un dépôt Git partagé et de scripts de traitement reproductibles pour l'équipe",
+                "en": "Set up a shared Git repository and reproducible processing scripts for the team"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

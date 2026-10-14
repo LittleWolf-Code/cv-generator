@@ -1,0 +1,26 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "cv",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "port": 4310,
+      "url": "http://127.0.0.1:4310"
+    },
+    {
+      "name": "cv-demo",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev:demo"],
+      "port": 4310,
+      "url": "http://127.0.0.1:4310"
+    },
+    {
+      "name": "cv-debordante",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--", "--fixture", "debordante"],
+      "port": 4310,
+      "url": "http://127.0.0.1:4310"
+    }
+  ]
+}

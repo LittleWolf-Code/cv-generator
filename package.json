@@ -1,0 +1,56 @@
+{
+  "name": "cv-generator",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Générateur de CV local à cases à cocher, lisible par les ATS, avec un serveur MCP pour Claude",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "workspaces": [
+    "packages/core",
+    "packages/store",
+    "packages/render",
+    "apps/server",
+    "apps/mcp",
+    "apps/web"
+  ],
+  "scripts": {
+    "prepare": "node scripts/prepare.mjs",
+    "postinstall": "npm run build:mcp",
+    "build:mcp": "tsc -b apps/mcp",
+    "build": "tsc -b && npm run build -w @cv/web",
+    "typecheck": "tsc -b && tsc -p scripts && npm run typecheck -w @cv/web",
+    "predev": "tsc -b apps/mcp apps/server",
+    "dev": "tsx scripts/dev.ts",
+    "dev:demo": "npm run dev -- --fixture courte",
+    "start": "tsx scripts/start.ts",
+    "auth:code": "tsx scripts/auth-code.ts",
+    "deploy": "tsx scripts/deploy-vps.ts",
+    "pretest": "tsc -b apps/mcp",
+    "test": "vitest run",
+    "test:ats": "tsx scripts/check-ats.ts",
+    "test:recette": "vitest run -t \"T-0[1-8] \"",
+    "data:init": "tsx scripts/data-init.ts",
+    "import:linkedin": "tsx scripts/import-linkedin.ts",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "mcp:inspect": "mcp-inspector node apps/mcp/dist/index.js",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@modelcontextprotocol/inspector": "2.9.0",
+    "@types/fontkit": "2.0.9",
+    "@types/node": "22.20.5",
+    "@types/proper-lockfile": "4.1.4",
+    "eslint": "10.12.0",
+    "globals": "17.13.0",
+    "prettier": "3.9.9",
+    "tsx": "4.23.15",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.71.0",
+    "vitest": "5.0.3"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Saisies que l'assainissement (annexe B.1) doit refuser, avec le motif attendu",
+  "cases": [
+    {
+      "field": "experiences[0].bullets[0].variants[0].text.fr",
+      "value": "Livraison réussie \uD83D\uDE80",
+      "expected": "emoji"
+    },
+    {
+      "field": "interests[0].text.fr",
+      "value": "Musique \u0007",
+      "expected": "control"
+    },
+    {
+      "field": "titles[0].variants[0].text.fr",
+      "value": "Ingénieure \uE000",
+      "expected": "private-use"
+    }
+  ]
+}
